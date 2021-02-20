@@ -3,7 +3,7 @@ Feature: As user, I want to be able to calculate parking cost
 
   @valet_parking
   Scenario:  Calculate parking cost with "Valet parking"
-    Given u ser is on the ParkingCostCalculatorPage
+    Given user is on the ParkingCostCalculatorPage
     When user chose parking lot option as a "Valet Parking"
     And user enters entry date and time
     And user enters leaving date and time
@@ -75,8 +75,7 @@ Feature: As user, I want to be able to calculate parking cost
 #      Scenario: Verify "Calculate" button is clickable
 #
 #
-#        @boundary_check
-#          Scenario:
+#
 #
 #
 #          // valid input date, valid leave date

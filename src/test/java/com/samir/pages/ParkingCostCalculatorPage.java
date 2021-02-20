@@ -37,7 +37,7 @@ public class ParkingCostCalculatorPage extends BasePage {
     @FindBy(xpath = "//input[@value='Calculate']")
     private WebElement calculateButton;
 
-    @FindBy(xpath = "//td/b")
+    @FindBy(xpath = "(//td//b)[1]")
     private WebElement resultInputBox;
 
 
